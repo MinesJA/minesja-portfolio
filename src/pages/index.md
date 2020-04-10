@@ -11,23 +11,12 @@ projects:
     title: Tools of the Trade
     site: https://tools-of-trade.herokuapp.com/
     github: https://github.com/MinesJA/tools_of_trade_frontend
-    text: >
+    description: >
       A site for developers to share, rate, find, and save tools useful for development. Share anything from wireframe tools to frameworks to basic gems and packages.
   - image: /img/placeholder.jpg
     title: Tools of the Trade
     site: https://tools-of-trade.herokuapp.com/
     github: https://github.com/MinesJA/tools_of_trade_frontend
-    text: >
+    description: >
       A site for developers to share, rate, find, and save tools useful for development. Share anything from wireframe tools to frameworks to basic gems and packages.
-links:
-  heading: How to find me
-  image1:
-    alt: LinkedIn
-    image: /img/github_logo.png
-  image2:
-    alt: Github
-    image: /img/linkedin_logo.png
-  image3:
-    alt: Email
-    image: /img/gmail_logo.png
 ---
