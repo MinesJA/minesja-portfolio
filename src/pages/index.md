@@ -2,70 +2,32 @@
 templateKey: index-page
 title: Jonathan Mines
 heading: JONATHAN MINES
-image: 
-
-image,
-name,
-blurb,
-projects,
-links
-mainpitch:
-  description: >
-    Full Stack Web Developer with a passion for building a more precise, efficient, and connected world. With a background in the Food Industry specializing in Distribution, Marketing and Sales, I discovered coding while constantly searching for tech-based solutions to business problems. With experience in Ruby on Rails, Javascript, React.js and Redux I hope to bring this problem solving approach to companies trying to build a better world.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
-intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+image: /img/profile.jpg
+blurb: >
+  Full Stack Web Developer with a passion for building a more precise, efficient, and connected world. With a background in the Food Industry specializing in Distribution, Marketing and Sales, I discovered coding while constantly searching for tech-based solutions to business problems. With experience in Ruby on Rails, Javascript, React.js and Redux I hope to bring this problem solving approach to companies trying to build a better world.
+projects:
+  heading: Projects I've worked on
+  - image: /img/placeholder.jpg
+    title: Tools of the Trade
+    site: https://tools-of-trade.herokuapp.com/
+    github: https://github.com/MinesJA/tools_of_trade_frontend
+    text: >
+      A site for developers to share, rate, find, and save tools useful for development. Share anything from wireframe tools to frameworks to basic gems and packages.
+  - image: /img/placeholder.jpg
+    title: Tools of the Trade
+    site: https://tools-of-trade.herokuapp.com/
+    github: https://github.com/MinesJA/tools_of_trade_frontend
+    text: >
+      A site for developers to share, rate, find, and save tools useful for development. Share anything from wireframe tools to frameworks to basic gems and packages.
+links:
+  heading: How to find me
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: LinkedIn
+    image: /img/github_logo.png
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Github
+    image: /img/linkedin_logo.png
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Email
+    image: /img/gmail_logo.png
 ---
