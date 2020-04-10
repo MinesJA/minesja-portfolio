@@ -1,16 +1,17 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Jonathan Mines
+heading: JONATHAN MINES
+image: 
+
+image,
+name,
+blurb,
+projects,
+links
 mainpitch:
-  title: Why Kaldi
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Full Stack Web Developer with a passion for building a more precise, efficient, and connected world. With a background in the Food Industry specializing in Distribution, Marketing and Sales, I discovered coding while constantly searching for tech-based solutions to business problems. With experience in Ruby on Rails, Javascript, React.js and Redux I hope to bring this problem solving approach to companies trying to build a better world.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,

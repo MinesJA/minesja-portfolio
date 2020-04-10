@@ -8,12 +8,10 @@ import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
+  name,
+  blurb,
+  projects,
+  links
 }) => (
   <div>
     <div
