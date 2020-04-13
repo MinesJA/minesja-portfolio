@@ -29,6 +29,7 @@ collections:
 
   - name: "pages"
     label: "Pages"
+    delete: false
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -39,4 +40,12 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Blurb, name: blurb, widget: string}
-          - {label: Projects, name: projects, widget: object, fields:[{label: Title, name: title, widget: string}, {label: Image, name: image, widget: image}, {label: URL, name: url, widget: string}, {label: Github, name: github, widget: string}, {label: Description, name: descriptio, widget: text}]}
+          - label: Projects
+            name: projects
+            widget: list
+            fields:
+                - {label: Title, name: title, widget: string}
+                - {label: Image, name: image, widget: image}
+                - {label: URL, name: url, widget: string}
+                - {label: Github, name: github, widget: string}
+                - {label: Description, name: description, widget: text}
