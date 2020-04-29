@@ -1,28 +1,28 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-
+import ItemGrid from '../components/ItemGrid'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Layout from '../components/Layout'
 
 export const IndexPageTemplate = ({
-  image,
   title,
   heading,
-  blurb
+  blurb,
+  image,
+  projects
 }) => (
   <div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
-
+          
           <div className="columns">
 
             {/* Image */}
             <div className="column is-4">
               <PreviewCompatibleImage imageInfo={image} />
             </div>
-
 
             <div className="column">
               <div className="content">
@@ -39,13 +39,6 @@ export const IndexPageTemplate = ({
               </div>
             </div>
 
-          </div>
-        </div>
-
-        <div className="section">
-          <div className="tile is-ancestor">
-            
-            
           </div>
         </div>
       </div>
@@ -70,6 +63,7 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         blurb={frontmatter.blurb}
+        projects={frontmatter.projects}
       />
     </Layout>
   )
@@ -87,18 +81,32 @@ export default IndexPage
 
 
 export const pageQuery = graphql`query IndexPageTemplate {
-  markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
+  markdownRemark(frontmatter: {templateKey: {eq: "index-page"}, projects: {elemMatch: {}}}) {
     frontmatter {
       title
+      templateKey
+      heading
       image {
         childImageSharp {
-          fluid(maxWidth: 240, quality: 64) {
+         fluid(maxWidth: 240, quality: 64) {
            ...GatsbyImageSharpFluid
           }
         }
       }
-      heading
       blurb
+      projects {
+        description
+        github
+        title
+        url
+        image {
+          childImageSharp {
+           fluid(maxWidth: 240, quality: 64) {
+             ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
     }
   }
 }`

@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Jonathan Mines
+title: Jonathan A Mines
 image: /img/profile.jpg
-heading: Jonathan Mines
+heading: Jonathan A. Mines
 blurb: Full Stack Web Developer with a passion for building a more precise,
   efficient, and connected world. With a background in the Food Industry
   specializing in Distribution, Marketing and Sales, I discovered coding while
